@@ -1,0 +1,115 @@
+
+// Variables
+$accent-color: #F28322;
+$primary: #F2EDDC;
+$secondary: #3B5936;
+$logo: #F2BC79;
+
+
+
+// Global reset
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+
+header{
+    .navbar{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    background-color: $primary;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    
+    ul {
+        list-style-type: none;
+        color: $secondary;
+
+        a{
+            color: $secondary;
+
+            &:hover {
+                text-decoration: none;
+                color: darken($secondary, 10%);
+            }
+        }
+
+    }
+
+}
+
+
+
+img {
+    border-radius: 8px;
+    max-width: 100%;
+}
+
+.container-fluid{
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+#logo{
+    color: $logo;
+    &:hover{
+        color: darken($logo, 10%);
+    }
+}
+
+
+#introduction {
+    background-color: $primary;
+
+    .col-6{
+        h2{
+            color: $secondary;
+            span{
+                color: $accent-color;
+            }
+        }
+        p{
+            color: $secondary;
+        }
+    }
+}
+
+#about{
+    background-color: $secondary;
+    .col-6{
+        h2{
+            color: $primary;
+        }
+        p{
+            color: $primary;
+        }
+
+    }
+}
+
+#projects{
+    background-color: $primary;
+    h2{
+        color: $secondary;
+    }
+    p{
+        color: $secondary;
+    }
+    h5{
+        color: $secondary;
+    }
+}
+
+footer {
+    background-color: $secondary;
+    color: $primary;
+}
+
+#button-form {
+    background-color: #FCF0F0;
+    color: black;
+    border: 1px solid #531A4A;
+}
