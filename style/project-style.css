@@ -7,10 +7,63 @@
   font-style: normal;
 }
 
+ul {
+  list-style: none;
+}
+
+img {
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2.8rem;
+}
+
+h3 {
+  font-size: 2.2rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+}
+
+.body_large {
+  font-size: 1.4rem;
+}
+
+.body_small {
+  font-size: 0.8rem;
+}
+
 h1, h3 {
   font-family: "Marcellus", serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.primary_button {
+  background-color: #3B5936;
+  color: #F2EDDC;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-radius: 0.5rem;
+}
+
+.secondary_button {
+  background-color: #F2EDDC;
+  color: #3B5936;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-radius: 0.5rem;
 }
 
 header {
@@ -33,15 +86,6 @@ main {
   color: #3B5936;
 }
 
-ul {
-  list-style: none;
-}
-
-img {
-  border-radius: 8px;
-  max-width: 100%;
-}
-
 #logo {
   color: #F2BC79;
 }
@@ -54,8 +98,9 @@ footer {
   color: #F2EDDC;
 }
 footer a {
-  color: black;
+  color: #F2EDDC;
 }
 footer a:hover {
   text-decoration: none;
+  color: #e4dab7;
 }/*# sourceMappingURL=project-style.css.map */

@@ -1,0 +1,144 @@
+// Variables
+$accent-color: #F28322;
+$primary: #F2EDDC;
+$secondary: #3B5936;
+$logo: #F2BC79;
+
+
+
+// Global reset
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-color: $primary;
+}
+
+
+img {
+    border-radius: 8px;
+    max-width: 100%;
+}
+
+
+// Typography
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 2.8rem;
+}
+h3{
+    font-size: 2.2rem;
+}
+h4{
+    font-size: 1.6rem;
+}
+
+.body_large{
+    font-size: 1.4rem;
+}
+
+.body_small{
+    font-size: 0.8rem;
+}
+
+.primary_button{
+    background-color: $primary;
+    color: $secondary;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-radius: 0.5rem;
+}
+
+.secondary_button{
+    background-color: $secondary;
+    color: $primary;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-radius: 0.5rem;
+}
+
+// css page
+
+header{
+    background-color: $primary;
+    ul {
+        list-style-type: none;
+        color: $secondary;
+
+        a{
+            color: $secondary;
+
+            &:hover {
+                text-decoration: none;
+                color: darken($secondary, 10%);
+            }
+        }
+
+    }
+
+}
+
+#logo{
+    color: $logo;
+    &:hover{
+        color: darken($logo, 10%);
+    }
+}
+
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    .container{
+        background-color: white;
+        .img-col{
+            transform: rotate(180deg);
+        }
+    
+        .contact-form{
+           
+            form .btn {
+                text-transform: uppercase;
+            }
+            form .underlined-input {
+                border: none;              
+                border-bottom: 1px solid grey; 
+                border-radius: 0;          
+                outline: none;             
+            }
+        }
+    }
+
+    
+}
+
+
+
+
+footer {
+    background-color: $secondary;
+    color: $primary;
+
+    a{
+        color: $primary;
+
+        &:hover {
+            text-decoration: none;
+            color: darken($primary, 10%);
+        }
+    }
+}
