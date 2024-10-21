@@ -47,8 +47,8 @@ h1, h3 {
 }
 
 .primary_button {
-  background-color: #3B5936;
-  color: #F2EDDC;
+  background-color: #F2EDDC;
+  color: #3B5936;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   padding-top: 0.75rem;
@@ -57,8 +57,8 @@ h1, h3 {
 }
 
 .secondary_button {
-  background-color: #F2EDDC;
-  color: #3B5936;
+  background-color: #3B5936;
+  color: #F2EDDC;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   padding-top: 0.75rem;
