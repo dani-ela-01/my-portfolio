@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+img {
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+header {
+  background-color: #F2EDDC;
+}
+header ul {
+  list-style-type: none;
+  color: #3B5936;
+}
+header ul a {
+  color: #3B5936;
+}
+header ul a:hover {
+  text-decoration: none;
+  color: #263923;
+}
+
+#logo {
+  color: #F2BC79;
+}
+#logo:hover {
+  color: #eda54b;
+}
+
+main .row {
+  border: 1px solid black;
+}
+main .row .col-4 {
+  background-color: beige;
+}
+main .row .col-4 .name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+main .row .col-4 ul {
+  list-style: none;
+}
+main .row .col-7 .education ul {
+  list-style-position: inside;
+}
+main .row .col-7 .languages ul {
+  list-style: none;
+}
+
+footer {
+  background-color: #3B5936;
+  color: #F2EDDC;
+}
+footer a {
+  color: #F2EDDC;
+}
+footer a:hover {
+  text-decoration: none;
+  color: #e4dab7;
+}/*# sourceMappingURL=cv-style.css.map */

@@ -1,0 +1,98 @@
+
+// Variables
+$accent-color: #F28322;
+$primary: #F2EDDC;
+$secondary: #3B5936;
+$logo: #F2BC79;
+
+// Global reset
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+img {
+    border-radius: 8px;
+    max-width: 100%;
+}
+
+// css page
+
+header{
+    background-color: $primary;
+    ul {
+        list-style-type: none;
+        color: $secondary;
+
+        a{
+            color: $secondary;
+
+            &:hover {
+                text-decoration: none;
+                color: darken($secondary, 10%);
+            }
+        }
+
+    }
+
+}
+
+#logo{
+    color: $logo;
+    &:hover{
+        color: darken($logo, 10%);
+    }
+}
+
+main{
+    .row{
+        border: 1px solid black;
+        .col-4{
+            background-color: beige;
+
+            .name{
+                font-size: 1.5rem;
+                font-weight: bold;
+            }
+            ul{
+                list-style: none;
+            }
+        }
+
+        .col-7{
+            .education{
+                ul{
+                    list-style-position: inside;
+                }
+            }
+            .languages{
+                ul{
+                    list-style: none;
+                }
+            }
+        }
+    }
+    
+}
+
+
+
+
+footer {
+    background-color: $secondary;
+    color: $primary;
+
+    a{
+        color: $primary;
+
+        &:hover {
+            text-decoration: none;
+            color: darken($primary, 10%);
+        }
+    }
+}

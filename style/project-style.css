@@ -55,6 +55,11 @@ h1, h3 {
   padding-bottom: 0.75rem;
   border-radius: 0.5rem;
 }
+.primary_button:hover {
+  text-decoration: none;
+  color: #263923;
+  background-color: #e4dab7;
+}
 
 .secondary_button {
   background-color: #3B5936;
@@ -64,6 +69,11 @@ h1, h3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   border-radius: 0.5rem;
+}
+.secondary_button:hover {
+  text-decoration: none;
+  color: #e4dab7;
+  background-color: #263923;
 }
 
 header {

@@ -61,6 +61,11 @@ h1,h3 {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
     border-radius: 0.5rem;
+    &:hover {
+        text-decoration: none;
+        color: darken($secondary, 10%);
+        background-color: darken($primary, 10%);
+    }
 }
 
 .secondary_button{
@@ -71,6 +76,11 @@ h1,h3 {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
     border-radius: 0.5rem;
+    &:hover {
+        text-decoration: none;
+        color: darken($primary, 10%);
+        background-color: darken($secondary, 10%);
+    }
 }
 
 // css page
