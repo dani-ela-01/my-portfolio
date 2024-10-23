@@ -51,9 +51,9 @@ header{
 
 main{
     .row{
-        border: 1px solid black;
-        .col-4{
-            background-color: beige;
+        border: 1px solid rgb(221, 220, 220);
+        .col-md-4{
+            background-color:$primary;
 
             .name{
                 font-size: 1.5rem;
@@ -64,12 +64,7 @@ main{
             }
         }
 
-        .col-7{
-            .education{
-                ul{
-                    list-style-position: inside;
-                }
-            }
+        .col-md-8{
             .languages{
                 ul{
                     list-style: none;

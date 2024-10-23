@@ -35,22 +35,19 @@ header ul a:hover {
 }
 
 main .row {
-  border: 1px solid black;
+  border: 1px solid rgb(221, 220, 220);
 }
-main .row .col-4 {
-  background-color: beige;
+main .row .col-md-4 {
+  background-color: #F2EDDC;
 }
-main .row .col-4 .name {
+main .row .col-md-4 .name {
   font-size: 1.5rem;
   font-weight: bold;
 }
-main .row .col-4 ul {
+main .row .col-md-4 ul {
   list-style: none;
 }
-main .row .col-7 .education ul {
-  list-style-position: inside;
-}
-main .row .col-7 .languages ul {
+main .row .col-md-8 .languages ul {
   list-style: none;
 }
 
