@@ -86,35 +86,41 @@ h1,h3 {
 // css page
 
 header{
-    background-color: $primary;
-    ul {
-        list-style-type: none;
-        color: $secondary;
+    .custom-navbar {
+        background-color: $primary !important;
+        color: $secondary ;
 
-        a{
+        ul {
+            list-style-type: none;
             color: $secondary;
-
+    
+            a{
+                color: $secondary;
+    
+                &:hover {
+                    text-decoration: none;
+                    color: darken($secondary, 10%);
+                }
+            }
+    
+        }
+        
+    
+        #logo {
+            color: $logo;
             &:hover {
-                text-decoration: none;
-                color: darken($secondary, 10%);
+                color: darken($logo, 10%);
             }
         }
-
     }
+    
 
-}
-
-
-#logo{
-    color: $logo;
-    &:hover{
-        color: darken($logo, 10%);
-    }
 }
 
 
 #introduction {
     background-color: $primary;
+    padding-top: 3rem;
 
     .col-md-6{
         h2{
