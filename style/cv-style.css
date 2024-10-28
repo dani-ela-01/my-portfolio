@@ -33,6 +33,22 @@ header .custom-navbar #logo {
 header .custom-navbar #logo:hover {
   color: #eda54b;
 }
+header .custom-navbar .navbar-toggler {
+  transition: background-image 0.3s ease;
+  padding: 0;
+}
+header .custom-navbar .navbar-toggler[aria-expanded=false] .navbar-toggler-icon {
+  background-image: url("../assets/open=no.png");
+  transition: background-image 0.3s ease;
+  width: 40px;
+  height: 40px;
+}
+header .custom-navbar .navbar-toggler[aria-expanded=true] .navbar-toggler-icon {
+  background-image: url("../assets/open=yes.png");
+  transition: background-image 0.3s ease;
+  width: 40px;
+  height: 40px;
+}
 
 main .row {
   border: 1px solid rgb(221, 220, 220);
