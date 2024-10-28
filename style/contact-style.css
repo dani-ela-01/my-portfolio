@@ -71,25 +71,25 @@ h4 {
   background-color: #263923;
 }
 
-header {
-  background-color: #F2EDDC;
+header .custom-navbar {
+  background-color: #F2EDDC !important;
+  color: #3B5936;
 }
-header ul {
+header .custom-navbar ul {
   list-style-type: none;
   color: #3B5936;
 }
-header ul a {
+header .custom-navbar ul a {
   color: #3B5936;
 }
-header ul a:hover {
+header .custom-navbar ul a:hover {
   text-decoration: none;
   color: #263923;
 }
-
-#logo {
+header .custom-navbar #logo {
   color: #F2BC79;
 }
-#logo:hover {
+header .custom-navbar #logo:hover {
   color: #eda54b;
 }
 

@@ -24,30 +24,37 @@ img {
 // css page
 
 header{
-    background-color: $primary;
-    ul {
-        list-style-type: none;
-        color: $secondary;
+    .custom-navbar {
+        background-color: $primary !important;
+        color: $secondary ;
 
-        a{
+        ul {
+            list-style-type: none;
             color: $secondary;
-
+    
+            a{
+                color: $secondary;
+    
+                &:hover {
+                    text-decoration: none;
+                    color: darken($secondary, 10%);
+                }
+            }
+    
+        }
+        
+    
+        #logo {
+            color: $logo;
             &:hover {
-                text-decoration: none;
-                color: darken($secondary, 10%);
+                color: darken($logo, 10%);
             }
         }
-
     }
+    
 
 }
 
-#logo{
-    color: $logo;
-    &:hover{
-        color: darken($logo, 10%);
-    }
-}
 
 main{
     .row{
