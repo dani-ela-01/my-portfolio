@@ -114,10 +114,10 @@ header .custom-navbar .navbar-toggler[aria-expanded=true] .navbar-toggler-icon {
   background-color: #F2EDDC;
   padding-top: 3rem;
 }
-#introduction .col-md-6 h2 {
+#introduction .col-md-6 h1 {
   color: #3B5936;
 }
-#introduction .col-md-6 h2 span {
+#introduction .col-md-6 h1 span {
   color: #F28322;
   font-style: italic;
 }

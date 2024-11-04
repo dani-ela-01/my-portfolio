@@ -118,7 +118,7 @@ main {
 main .container {
   background-color: white;
 }
-main .container .contact-form h3 {
+main .container .contact-form h1 {
   font-style: italic;
 }
 main .container .contact-form form .underlined-input {
