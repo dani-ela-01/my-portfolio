@@ -32,10 +32,10 @@ header .custom-navbar ul a:hover {
   color: #263923;
 }
 header .custom-navbar #logo {
-  color: #F2BC79;
+  color: #A65316;
 }
 header .custom-navbar #logo:hover {
-  color: #eda54b;
+  color: #793c10;
 }
 header .custom-navbar .navbar-toggler {
   transition: background-image 0.3s ease;
