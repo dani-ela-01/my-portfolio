@@ -67,9 +67,6 @@ main .row .col-md-4 .name {
 main .row .col-md-4 ul {
   list-style: none;
 }
-main .row .col-md-8 .experience div {
-  color: grey;
-}
 
 footer {
   background-color: #3B5936;
