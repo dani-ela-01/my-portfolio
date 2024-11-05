@@ -118,14 +118,14 @@ header{
             padding: 0;
 
             &[aria-expanded="false"] .navbar-toggler-icon{
-                background-image: url('../assets/open=no.png');
+                background-image: url('../images/open=no.png');
                 transition: background-image 0.3s ease;
                 width: 40px;
                 height: 40px;
             }
 
             &[aria-expanded="true"] .navbar-toggler-icon{
-                background-image: url('../assets/open=yes.png');
+                background-image: url('../images/open=yes.png');
                 transition: background-image 0.3s ease;
                 width: 40px;
                 height: 40px;

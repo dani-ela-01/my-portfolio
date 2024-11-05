@@ -65,30 +65,34 @@
     </header>
 
     <main class="p-5 mt-5 mt-md-0">
-        <div class="container shadow-lg rounded">
+        <div class="container shadow-lg rounded py-5 mt-md-5">
             <div class="row g-0">
               <!-- Left Section (Contact Info) -->
-              <div class="col-md-4 rounded-0 p-0 m-0  d-flex align-items-center">
+              <div class="col-md-5 rounded-0 p-0 m-0  d-flex align-items-center">
                 <img src="./assets/images/contact.jpg" alt="">
               </div>
           
               <!-- Right Section (Form) -->
-              <div class="col-md-8  contact-form p-5">
+              <div class="col-md-7 contact-form p-5">
                   <form class="px-lg-5">
                       <h1 class="mb-5">Let's connect</h1>
                       <div class="row mb-3">
-                        <div class="col-md-6">
-                            <input required type="text" class="form-control underlined-input" placeholder="Your Name">
+                        <div class="col-md-6 pb-3">
+                            <label for="name">Your Name</label>
+                            <input id="name" aria-label="Your Name" required type="text" class="form-control underlined-input" >
                         </div>
                         <div class="col-md-6">
-                            <input required type="text" class="form-control underlined-input" placeholder="Your Last Name">
+                            <label for="name">Your Last Name</label>
+                            <input required type="text" class="form-control underlined-input" >
                         </div>
                     </div>
                   <div class="mb-3">
-                    <input required type="email" class="form-control underlined-input" placeholder="Email">
+                    <label for="name">Email</label>
+                    <input required type="email" class="form-control underlined-input" >
                   </div>
                   <div class="mb-3">
-                    <textarea required class="form-control underlined-input" rows="3" placeholder="Message"></textarea>
+                    <label for="name">Message</label>
+                    <textarea required class="form-control underlined-input" rows="3"></textarea>
                   </div>
                   <button type="submit" class="btn secondary_button text-uppercase w-100">send</button>
                 </form>

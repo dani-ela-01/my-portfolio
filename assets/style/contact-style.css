@@ -97,13 +97,13 @@ header .custom-navbar .navbar-toggler {
   padding: 0;
 }
 header .custom-navbar .navbar-toggler[aria-expanded=false] .navbar-toggler-icon {
-  background-image: url("../assets/open=no.png");
+  background-image: url("../images/open=no.png");
   transition: background-image 0.3s ease;
   width: 40px;
   height: 40px;
 }
 header .custom-navbar .navbar-toggler[aria-expanded=true] .navbar-toggler-icon {
-  background-image: url("../assets/open=yes.png");
+  background-image: url("../images/open=yes.png");
   transition: background-image 0.3s ease;
   width: 40px;
   height: 40px;
@@ -113,7 +113,6 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 90vh;
 }
 main .container {
   background-color: white;
