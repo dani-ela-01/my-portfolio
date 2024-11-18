@@ -117,10 +117,10 @@ main {
 main .container {
   background-color: white;
 }
-main .container .contact-form h1 {
+main .container #contact-form h1 {
   font-style: italic;
 }
-main .container .contact-form form .underlined-input {
+main .container #contact-form .underlined-input {
   border: none;
   border-bottom: 1px solid grey;
   border-radius: 0;

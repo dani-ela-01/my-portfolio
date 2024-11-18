@@ -146,11 +146,11 @@ main{
     .container{
         background-color: white;
     
-        .contact-form{
+        #contact-form{
             h1{
                 font-style: italic;
             }
-            form .underlined-input {
+            .underlined-input {
                 border: none;              
                 border-bottom: 1px solid grey; 
                 border-radius: 0;          
