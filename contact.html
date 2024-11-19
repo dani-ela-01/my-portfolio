@@ -140,7 +140,7 @@
 
     <script>
         (function() {
-            emailjs.init("0irxPxowwGcC__MBr");
+            emailjs.init("dh-bq23mYxMwjhKzq");
         })();
     </script>
     <script>
@@ -148,7 +148,7 @@
             document.getElementById('contact-form').addEventListener('submit', function(event) {
                 event.preventDefault();
                 
-                emailjs.send('service_x2182rr', 'template_ssss9i9',{
+                emailjs.send('service_446yayo', 'template_gwn4gmj',{
                         name: document.getElementById('name').value,
                         last_name: document.getElementById('last_name').value,
                         company_name: document.getElementById('company_name').value,
@@ -156,6 +156,7 @@
                         message: document.getElementById('message').value,
                     }).then(() => {
                         alert('Message sent successfully!');
+                        document.getElementById('contact-form').reset();
                     }, (error) => {
                         alert('Message failed to send. Please try again later.');
                         console.log('FAILED...', error);
