@@ -118,6 +118,17 @@ main {
   background-color: #F2EDDC;
   color: #3B5936;
 }
+main .test img {
+  width: 306px;
+  height: 720px;
+}
+main .test .image_tag {
+  margin-top: 1rem;
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.6rem;
+}
 
 footer {
   background-color: #3B5936;
@@ -129,4 +140,4 @@ footer a {
 footer a:hover {
   text-decoration: none;
   color: #e4dab7;
-}/*# sourceMappingURL=project-style.css.map */
+}/*# sourceMappingURL=ecodream-project-style.css.map */

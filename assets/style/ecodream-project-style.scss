@@ -148,6 +148,19 @@ header{
 main{
     background-color: $primary;
     color: $secondary;
+    .test{
+        img{
+            width: 306px;
+            height: 720px;
+        }
+        .image_tag{
+            margin-top: 1rem;
+            font-family: "Marcellus", serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 1.6rem;
+        }
+    }
 }
 
 
