@@ -118,6 +118,13 @@ main {
   background-color: #F2EDDC;
   color: #3B5936;
 }
+main a {
+  color: #A65316;
+}
+main a:hover {
+  text-decoration: none;
+  color: #793c10;
+}
 
 footer {
   background-color: #3B5936;

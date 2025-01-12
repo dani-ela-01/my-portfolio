@@ -148,6 +148,13 @@ header{
 main{
     background-color: $primary;
     color: $secondary;
+    a{
+        color: $accent-color;
+        &:hover {
+            text-decoration: none;
+            color: darken($accent-color, 10%);
+        }
+    }
 }
 
 
